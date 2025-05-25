@@ -320,7 +320,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #c6c6c6;
+    background-color: #9abbf7;
     padding: 1rem;
 }
 .cardoverview{
@@ -352,25 +352,25 @@ body{
     border-radius: 20px;
 }
 .card1{
-    background-color: #f64c4c;
+    background-color: #f5cece;
 }
 .card2{
-    background: #87f563;
+    background-color: #cafae4;
 }
 .card3{
-    background: #40fafd;
+    background-color: #e2dcf8;
     
 }
 .card4{
-    background: #da40fd;
+    background-color: #d8ffd9;
     
 }
 .card5{
-    background: #63f3c8;
+    background-color: #fbd2fe;
     
 }
 .card6{
-    background: #218edc;
+    background-color: #d7feff;
     
 }
 .cardheading{
@@ -435,7 +435,7 @@ body{
 }
 .name{
     margin-top: 1rem;
-    color: rgb(177, 45, 225);
+    color: rgb(0, 0, 0);
     font-weight: bold;
 
 }
@@ -513,6 +513,11 @@ body{
 }
 .productinfo a,.legalinfo a,.supportinfo a,.companyinfo a{
     color: gray;
+
+} 
+.productinfo a:hover,.legalinfo a:hover,.supportinfo a:hover,.companyinfo a:hover{
+    color: rgb(0, 0, 0);
+    
 } 
 @media screen and (max-width:850px) {
     .footer1{
